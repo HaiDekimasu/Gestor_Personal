@@ -19,10 +19,8 @@ a{
     color: var(--color-primary);
 }
 body {
-
     background-image: linear-gradient(to right,#7f7fd5a6,#6085c994,#91eae47c);
 }
-
 /* pagina index____________________________________________________ */
 .pagina1{
     width: 100%;
