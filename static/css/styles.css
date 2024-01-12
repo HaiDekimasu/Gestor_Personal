@@ -4,27 +4,11 @@
     --color-primary: rgb(247, 236, 236);
     --color-secondary: #0D6EFD;
     --color-body: #052D49;
-    --fonts-main: Chuby;
-    --fonts-text: Rich;
-    --fonts-princi: varsy;
     }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: varsy;
-    src: url(/fonts/varsy.ttf);
-}
-@font-face {
-    font-family: Chuby;
-    src: url(/fonts/Chuby.ttf);
-}
-@font-face {
-    font-family: Rich;
-    src: url(/fonts/Rich.otf);
 }
 a[href^="#"] {
     text-decoration: none;
@@ -198,9 +182,6 @@ h1,h2,h3,h4,h5,h6{
     background-color: #f4f6f7;
     color: #0D6EFD;
 }
-
-
-
 /*footer ___________________________________________________________________*/
 footer{
     padding-top: 30px;
@@ -255,13 +236,11 @@ main {
     width: 100%;
     padding-bottom: 120px;
 }
-
 .my-form label {
     display: block;
     text-align: left;
     margin-bottom: 10px;
 }
-
 .my-form input {
     display: block;
     width: 100%;
@@ -295,5 +274,4 @@ main {
     padding: 20px 30px;
     background-color: #052D49;
     color: white;
-
 }
